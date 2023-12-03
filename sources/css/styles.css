@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Tilt_Neon';
+    src: url('/sources/fonts/TiltNeon-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Kanit';
+    src: url('/sources/fonts/Kanit-Regular.ttf') format('truetype');
+}
+
+.font1 {
+    font-family: 'Tilt_Neon';
+}
+
+.font2 {
+    font-family: 'Tilt_Neon';
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #1b1b1b;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    border-radius: 2px;
+  }
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.separador{
+    height: 80px;
+}
+
+.icons {
+    display: flex;
+  }
+  
+.icons img {
+    width: 128px;
+    height: 128px;
+    margin-right: 20px;
+}
+  
+.proyectos-section img {
+    width: 200px;
+    height: 200px;
+}
+  
+
+.fullscreen {
+    height: 100vh;
+}
+
+.buttonAll {
+    height: 40px;
+    width: 200px;
+    text-decoration: none;
+    background-color: #1668e4;
+}
+
+.screen-horizontal {
+    width: 100%;
+}
+
+.margin-screen {
+    margin: 20px;
+}
+
+.redondear div {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.bgDark {
+    background-color: rgb(39, 39, 39);
+}
+  
+  body {
+    background: url('/sources/img/background.jpg') center/cover;
+    background-attachment: fixed;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+.white {
+    color: #ffffff
+}
+
+.vertical {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-circular {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+  
