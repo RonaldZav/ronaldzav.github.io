@@ -78,13 +78,15 @@
   
 
 .footer {
-    bottom: 0;
-    max-height: 100px;
-    width: 100%;
-    background-color: #1a1a1a;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    overflow: hidden;
+  position: relative;
+  max-width: 600px;
+  bottom: 0;
+  width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  background-color: #1a1a1a;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .footer p {
@@ -122,12 +124,12 @@
     background-color: rgb(39, 39, 39);
 }
   
-  body {
+body {
     background: url('/sources/img/background.jpg') center/cover;
     background-attachment: fixed;
     max-width: 600px;
     margin: 0 auto;
-  }
+}
 
 .white {
     color: #ffffff

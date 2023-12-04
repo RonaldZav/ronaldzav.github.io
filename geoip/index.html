@@ -1,0 +1,45 @@
+<head>
+    <title>Geolocalizador IP</title>
+    <meta property="og:image" content="sources/img/geoip.png">
+    <meta name="description" content="Obten toda la información sobre una direccion IPv4">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/sources/css/styles.css">
+    <link rel="stylesheet" href="/sources/css/geoip.css">
+    <link rel="icon" href="/sources/img/geoip.png" type="image/x-icon">
+    <script src="/sources/js/geoip.js"></script>
+</head>
+    
+<body>
+    <section class="fullscreen center vertical">
+            <div class="center vertical" style="margin-top: 10%;">
+                <h1 class="font1 white">Geolocalizador IP</h1>
+                <p class="font2 white" style="text-align: center; margin: 0;">Obten toda la información sobre una direccion IPv4.</p>
+            </div>
+
+            <div style="margin-top: 40px;">
+                <form id="formIP">
+                    <input class="white font2" style="text-size-adjust: 40px; width: 260px; height: 40px;" type="text" id="ipv4" name="IPv4" pattern="^(\d{1,3}\.){3}\d{1,3}$" 
+                           title="Por favor, introduce una dirección IPv4 válida" required>
+                    <input type="submit" id="obtenerIP" value="">
+                </form>
+            </div>
+
+            <div>
+                <table id="tablaGeo" border="1">
+                    <tbody id="cuerpoTabla" class="white font2">
+                    </tbody>
+                </table>
+            </div>
+
+    </section>
+    
+    <div class="separador"></div>
+    
+    <section class="footer center redondear">
+    
+            <div class="center">
+                <p class="font1 white">© RonaldZav 2024. Todos los derechos reservados.</p>
+            </div>
+    
+    </section>
+</body>
