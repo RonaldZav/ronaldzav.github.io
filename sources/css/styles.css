@@ -9,13 +9,27 @@
 }
 
 .font1 {
+    font-size: 40px;
     font-family: 'Tilt_Neon';
 }
 
 .font2 {
-    font-family: 'Tilt_Neon';
+    font-size: 20px;
+    font-family: 'Kanit';
 }
 
+@keyframes subirBajar {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-6px);
+    }
+}
+
+.logo {
+    animation: subirBajar 2s ease-in-out infinite;
+}  
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -58,18 +72,18 @@
 }
   
 .proyectos-section img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: auto;
 }
   
 
 .fullscreen {
-    height: 100vh;
+    height: 500px;
 }
 
 .buttonAll {
     height: 40px;
-    width: 200px;
+    width: 250px;
     text-decoration: none;
     background-color: #1668e4;
 }
@@ -94,7 +108,7 @@
   body {
     background: url('/sources/img/background.jpg') center/cover;
     background-attachment: fixed;
-    max-width: 500px;
+    max-width: 600px;
     margin: 0 auto;
   }
 
