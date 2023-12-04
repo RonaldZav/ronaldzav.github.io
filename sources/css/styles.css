@@ -77,6 +77,23 @@
 }
   
 
+.footer {
+    bottom: 0;
+    max-height: 100px;
+    width: 100%;
+    background-color: #1a1a1a;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    overflow: hidden;
+}
+
+.footer p {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 17px;
+    text-align: center;
+}
+
 .fullscreen {
     height: 500px;
 }
